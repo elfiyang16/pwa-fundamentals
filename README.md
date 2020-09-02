@@ -99,17 +99,19 @@ npm install -g <package-name>
 
 #### Project setup
 
+
+We'll  need some certificates so we can run a development webserver over HTTPS. You can generate them by running
+
+```
+yarn prepcerts
+```
+
 Finally, while in the top-level folder of this project, download the and install this project's dependencies by running
 
 ```
 yarn
 ```
 
-We'll also need some certificates so we can run a development webserver over HTTPS. You can generate them by running
-
-```
-yarn prepcerts
-```
 
 To start the server, run
 
